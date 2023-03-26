@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-learning website</title>
+    <link rel="stylesheet" href="dropdown.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <!--navigation bar starts here-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+             <br>
+            <a class="navbar-brand" href="homepage.html" style="color: rgb(70, 8, 128); font-size: large;"><b>Education_Learning</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: rgb(43, 7, 77);">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="nav-link active" aria-current="page" href="homepage.html">Home </a>
+
+            <div class="dropdown">
+                <label style="padding-left: 20px;">Dropdown</label>
+                <div class="dropdown-content">
+                    <a href="#">Artifical intelligence</a>
+                    <a href="#">Data science</a>
+                    <a href="#">Big data and data analytics</a>
+                    <a href="#">Computer network and security</a>
+                    <a href="#">Data structures & algorithms</a>
+                    <a href="#">Management skills</a>
+                    <a href="#">Other</a>
+
+                </div>
+            </div>
+
+            <!--<form>-->
+            <input class=" form-control me-2 " type="search " placeholder="What do you want " aria-label="Search ">
+            <button class="btn btn-outline-danger " type="submit ">Search</button> <br>
+            <a href="loginpg.html "><button class="btn btn-outline-danger ">Login</button></a>
+
+
+
+
+
+        </div>
+
+    </nav>
+    <br>
+    <br>
+    <!--content starts here-->
+    <div>
+        <h1 style="text-align: center;">Artifical intelligence</h1>
+    </div>
+    <br>
+    <div style="background-color: rgb(223, 249, 244); margin-left: 1%; margin-right:1%; ">
+        <br>
+        <div class="container text-center ">
+            <div class="row ">
+                <div class="col ">
+                    <img src="data:image/jpeg;base64,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Y2d3h7q07ibXCH0h/AY9jP1XV48p67cTlxvvpQJWJVt9amdGu9vussMaLj33OZyMSPONFNX4vlj9UspQhdV/ZN0eCOl1k/DNcJbBHNc7vxevrjZllK3V6EbKsVfZtszrFYBymV1jbj6TLGZe0oozLJbY5TJhlhcRERds13yWbGkrSah8FiSTutNM9roewau/NQ/GiIa3zP2VOELgr4ptmwLZnAVYvKwVlkTx37Wn4laXVXFYolyqzDGJzlYkqCi4tdSIREUUQohRYhCiFRUIpi2t50/NQghERSgsiRAte8nmsUQWcJi3U3seww5j8zT168xt5lMZjHVHFzgBJm0/mSqyLm4y2WupllJZL1RERdORERAREQFvw2Kcw2NtwdCtCKWS9VZbHbY5tVstGmo3CpVsLyVfC4hzHBzfMbEciu5UY17A9mh9juCvPnh43c9N8ctzv286+nChdSrSnxVCpShc7aNJCBZJCKZgijKi688vrj8c+LahyIve+fGtxUIi5dskREBERBiURFyqEREBCiIsQhRFFQiIgKERSgiIgIiICIiAiIgIiIClEQF0+A1j2mT9lzSSOoFj4oi4z/rXWP8AaLeMYAbKhVFkReWPWovCgIi6EoiIP//Z "
+                        width="250 " height="200 ">
+                    <br>
+                    <p class=" h5 ">Human & AI</p>
+                    <p>All about basics of Artifical intelligence</p>
+                </div>
+                <div class="col ">
+                    <img src="https://media.istockphoto.com/id/1034901762/photo/artificial-intelligence-and-future-concept.jpg?s=612x612&w=0&k=20&c=dC6suSUc0_m8mgul_8E5WaZ8x0tNkll2Ak5drKZafvI=" width=" 250 " height="200 ">
+                    <br>
+                    <p class="h5 ">Artifical intelligence course</p>
+                    <p>AI with future concept <br> 5 star course</p>
+                </div>
+                <div class="col ">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLAHSy2NhskLog7HnKPpiATEoJhM0EGd34hA&usqp=CAU" width="250 " height="200 ">
+                    <br>
+                    <p class="h5 ">Problem Solving with AI</p>
+                    <p>Improving problem solving technique with help of AI</p>
+                </div>
+            </div>
+            <!--New arrival-->
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <h2>Upcoming courses</h2>
+        <h4>High quality resources reviewed by top professors. <br> Get certified with trending courses and skillup your knowledge
+        </h4>
+    </div>
+    <br>
+    <br>
+    <div>
+        <div style="background-color: rgb(223, 249, 244); margin-left: 1%; margin-right:1%; ">
+            <br>
+            <div class="container text-center ">
+                <div class="row ">
+                    <div class="col ">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGFul47lCZXzbQjE8U91ZyhC71IB6N8ftNA&usqp=CAU" width="250" height="200">
+
+                        <br>
+                        <p class=" h5 ">All about AI</p>
+                        <p>All about basics of Artifical intelligence</p>
+                    </div>
+                    <div class="col ">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgWBW08eKPrX57oV5XOnfpywaEOSUarD9_0g&usqp=CAU" width=" 250 " height="200 ">
+                        <br>
+                        <p class="h5 ">E-commerce</p>
+                        <p>Use of AI in e-commerce</p>
+                    </div>
+                    <div class="col ">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdy_LxGNxn93DhLbT5nkNdL5vG05eCO3Zlg9IP3mlwIqyRzwKqX841Nhw_GyOgDmwaKo&usqp=CAU" width="250 " height="200 ">
+                        <br>
+                        <p class="h5 ">Robotics with AI</p>
+                        <p>Use of AI in Robotics</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="background-color:black; color:azure ">
+        <br>
+        <br>
+        <div style="text-align: center; ">
+            <h3>Bite-Learning</h3>
+            <h5>E-learning platform for all learners</h5>
+            <p>
+                Address: Nihar complex, Chennai, India
+            </p>
+            <br>
+            <br>
+            <br>
+            <p>© 2023 Bite-Learning. All rights reserved.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
